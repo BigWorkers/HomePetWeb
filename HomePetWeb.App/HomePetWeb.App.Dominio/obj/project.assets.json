@@ -180,7 +180,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maria\\.nuget\\packages\\": {}
+    "C:\\Users\\SamuelC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -188,11 +188,11 @@
       "projectUniqueName": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Dominio\\HomePetWeb.App.Dominio.csproj",
       "projectName": "HomePetWeb.App.Dominio",
       "projectPath": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Dominio\\HomePetWeb.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\SamuelC\\.nuget\\packages\\",
       "outputPath": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\SamuelC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

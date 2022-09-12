@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Y7n2ycy5LUPxkK6GnzW7kQ8U4TV3f4wH+QBR+NJEuXsbY1Zx6BBOoBdekVCtx5qVnvtgSdcly7GL7UqM+KhM7A==",
+  "dgSpecHash": "7g23gEHbEpL5EloKYfsWo84pATgkzlaZPrRmLdhhfQgJXmCUSqY5qT7Zkd9fh3ywrQ7YuHWCUHiSF2ds4+tW1Q==",
   "success": true,
   "projectFilePath": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Persistencia\\HomePetWeb.App.Persistencia.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\maria\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\maria\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\SamuelC\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\SamuelC\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

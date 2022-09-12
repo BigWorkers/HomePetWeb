@@ -46,7 +46,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maria\\.nuget\\packages\\": {}
+    "C:\\Users\\SamuelC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -54,11 +54,11 @@
       "projectUniqueName": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Frontend\\HomePetWeb.App.Frontend.csproj",
       "projectName": "HomePetWeb.App.Frontend",
       "projectPath": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Frontend\\HomePetWeb.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\SamuelC\\.nuget\\packages\\",
       "outputPath": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\SamuelC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

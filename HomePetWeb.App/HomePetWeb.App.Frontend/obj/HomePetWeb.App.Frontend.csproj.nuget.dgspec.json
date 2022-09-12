@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Dominio\\HomePetWeb.App.Dominio.csproj",
         "projectName": "HomePetWeb.App.Dominio",
         "projectPath": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Dominio\\HomePetWeb.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\SamuelC\\.nuget\\packages\\",
         "outputPath": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\SamuelC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -63,11 +63,11 @@
         "projectUniqueName": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Frontend\\HomePetWeb.App.Frontend.csproj",
         "projectName": "HomePetWeb.App.Frontend",
         "projectPath": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Frontend\\HomePetWeb.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\SamuelC\\.nuget\\packages\\",
         "outputPath": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\SamuelC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -123,11 +123,11 @@
         "projectUniqueName": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Persistencia\\HomePetWeb.App.Persistencia.csproj",
         "projectName": "HomePetWeb.App.Persistencia",
         "projectPath": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Persistencia\\HomePetWeb.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\SamuelC\\.nuget\\packages\\",
         "outputPath": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\SamuelC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
