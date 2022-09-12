@@ -1,0 +1,45 @@
+﻿@page
+@model HomePetWeb.App.Frontend.Pages.Edit3Model
+@{
+}
+<h2>Edicion Visita Domicilio : @Model.VisitaDomicilio.Temperatura</h2>
+<form method="post">
+     <input type="hidden" asp-for="VisitaDomicilio.Id"/>
+    <div class="form-group">
+        <label asp-for="VisitaDomicilio.Temperatura"></label>
+        <input asp-for="VisitaDomicilio.Temperatura" class="form-control">
+        <span class="text-danger" asp-validation-for="VisitaDomicilio.Temperatura"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="VisitaDomicilio.Peso"></label>
+        <input asp-for="VisitaDomicilio.Peso" class="form-control">
+        <span class="text-danger" asp-validation-for="VisitaDomicilio.Peso"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="VisitaDomicilio.FrecuenciaRespiratoria"></label>
+        <input asp-for="VisitaDomicilio.FrecuenciaRespiratoria" class="form-control">
+        <span class="text-danger" asp-validation-for="VisitaDomicilio.FrecuenciaRespiratoria"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="VisitaDomicilio.FrecuenciaCardiaca"></label>
+        <input asp-for="VisitaDomicilio.FrecuenciaCardiaca" class="form-control">
+        <span class="text-danger" asp-validation-for="VisitaDomicilio.FrecuenciaCardiaca"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="VisitaDomicilio.EstadoAnimo"></label>
+        <input asp-for="VisitaDomicilio.EstadoAnimo" class="form-control">
+        <span class="text-danger" asp-validation-for="VisitaDomicilio.EstadoAnimo"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="VisitaDomicilio.FechaVisita"></label>
+        <input asp-for="VisitaDomicilio.FechaVisita" class="form-control">
+        <span class="text-danger" asp-validation-for="VisitaDomicilio.FechaVisita"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="VisitaDomicilio.IdVeterinario"></label>
+        <input asp-for="VisitaDomicilio.IdVeterinario" class="form-control">
+        <span class="text-danger" asp-validation-for="VisitaDomicilio.IdVeterinario"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Grabar</button>
+</form>
+    <a asp-page="./List3" class="btn-default">VisitaDomicilio </a>

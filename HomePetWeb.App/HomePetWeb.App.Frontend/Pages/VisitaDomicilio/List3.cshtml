@@ -1,0 +1,46 @@
+﻿@page
+@model HomePetWeb.App.Frontend.Pages.List3Model
+@{
+}
+<h1>Visita a Domicilio</h1>
+<form method="get">
+    <div class="form-group">
+        <p>
+            InfoVisitaDomicilio: <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda"/>
+            <input type="submit" value="Filtar" />
+        </p>
+</form>
+<table class="table">
+    @foreach (var InfoVisitaDomicilio in Model.VisitaDomicilio)
+    {
+        <tr>
+            <td>@InfoVisitaDomicilio.Temperatura</td>
+            <td>@InfoVisitaDomicilio.Peso</td>
+            <td>@InfoVisitaDomicilio.FrecuenciaRespiratoria</td>
+            <td>@InfoVisitaDomicilio.FrecuenciaCardiaca</td>
+            <td>@InfoVisitaDomicilio.EstadoAnimo</td>
+            <td>@InfoVisitaDomicilio.FechaVisita</td>
+            <td>@InfoVisitaDomicilio.IdVeterinario</td>
+                 <td>
+                    <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-visitaDomicilioId="@InfoVisitaDomicilio.Id">
+                        <i class="fas fa-info-circle fa-lg"></i>
+                        InfoVet
+                        </a>
+                 </td>     
+                 <td> 
+                 <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-visitaDomicilioId="@InfoVisitaDomicilio.Id">
+                 <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
+                        Editar Info
+                 </a>
+                 <td> 
+                 <a class="btn btn-primary table-btn" asp-page="./Delete" asp-route-visitaDomicilioId="@InfoVisitaDomicilio.Id">
+                 <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
+                        Borrar
+                 </a>
+
+            </td>  
+        </tr>   
+    }
+
+    </table>
+    <a asp-page=".\Edit3" class="btn btn-primary">Adicionar VisitaDomicilio</a>

@@ -1,0 +1,44 @@
+﻿@page
+@model HomePetWeb.App.Frontend.Pages.List1Model
+@{
+}
+<h1>Mascota en Casa</h1>
+<form method="get">
+    <div class="form-group">
+        <p>
+            InfoMascota: <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda"/>
+            <input type="submit" value="Filtar" />
+        </p>
+</form>
+<table class="table">
+    @foreach (var InfoMascota in Model.Mascotas)
+    {
+        <tr>
+            <td>@InfoMascota.Nombre</td>
+            <td>@InfoMascota.FechaNacimiento</td>
+            <td>@InfoMascota.Color</td>
+            <td>@InfoMascota.Raza</td>
+            <td>@InfoMascota.EstadoSalud</td>
+                 <td>
+                    <a class="btn btn-primary table-btn" asp-page="./Details1" asp-route-mascotaId="@InfoMascota.Id">
+                        <i class="fas fa-info-circle fa-lg"></i>
+                        InfoVet
+                        </a>
+                 </td>     
+                 <td> 
+                 <a class="btn btn-primary table-btn" asp-page="./Edit1" asp-route-mascotaId="@InfoMascota.Id">
+                 <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
+                        Editar Info
+                 </a>
+                 <td> 
+                 <a class="btn btn-primary table-btn" asp-page="./Delete1" asp-route-mascotaId="@InfoMascota.Id">
+                 <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
+                        Borrar
+                 </a>
+
+            </td>  
+        </tr>   
+    }
+
+    </table>
+    <a asp-page=".\Edit1" class="btn btn-primary">Adicionar Mascota</a>

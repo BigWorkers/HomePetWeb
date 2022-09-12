@@ -1,0 +1,22 @@
+@page
+@model  HomePetWeb.App.Frontend.Pages.DetailsModel
+@{
+}
+<h2>@Model.Veterinario.Nombre</h2>
+<div>
+    Id: @Model.Veterinario.Id
+    </div>
+    <div>
+    Nombre: @Model.Veterinario.Nombre
+    </div>
+<div>
+    Apellido: @Model.Veterinario.Apellido
+    </div>
+<div>
+    Telefono: @Model.Veterinario.Telefono
+    </div>
+    <div>
+    TarjetaProfesional: @Model.Veterinario.TarjetaProfesional
+    </div>
+    <a asp-page="./List" class="btn-default">Veterinario </a>
+  

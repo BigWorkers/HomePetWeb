@@ -1,0 +1,22 @@
+﻿@page
+@model HomePetWeb.App.Frontend.Pages.Details1Model
+@{
+}
+<h2>@Model.Mascota.Nombre</h2>
+<div>
+    Id: @Model.Mascota.Id
+    </div>
+<div>
+    FechaNacimiento: @Model.Mascota.FechaNacimiento
+    </div>
+<div>
+    Color: @Model.Mascota.Color
+    </div>
+    <div>
+    Raza: @Model.Mascota.Raza
+    </div>
+    <div>
+    EstadoSalud: @Model.Mascota.EstadoSalud
+    </div>
+    <a asp-page="./List1" class="btn-default">Mascota </a>
+  
