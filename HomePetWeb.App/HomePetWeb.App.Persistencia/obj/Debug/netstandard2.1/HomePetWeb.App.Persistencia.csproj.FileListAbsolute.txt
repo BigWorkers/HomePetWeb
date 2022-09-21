@@ -1,0 +1,12 @@
+C:\HomePetWeb\HomePetWeb.App\HomePetWeb.App.Persistencia\bin\Debug\netstandard2.1\HomePetWeb.App.Persistencia.deps.json
+C:\HomePetWeb\HomePetWeb.App\HomePetWeb.App.Persistencia\bin\Debug\netstandard2.1\HomePetWeb.App.Persistencia.dll
+C:\HomePetWeb\HomePetWeb.App\HomePetWeb.App.Persistencia\bin\Debug\netstandard2.1\HomePetWeb.App.Persistencia.pdb
+C:\HomePetWeb\HomePetWeb.App\HomePetWeb.App.Persistencia\bin\Debug\netstandard2.1\HomePetWeb.App.Dominio.dll
+C:\HomePetWeb\HomePetWeb.App\HomePetWeb.App.Persistencia\bin\Debug\netstandard2.1\HomePetWeb.App.Dominio.pdb
+C:\HomePetWeb\HomePetWeb.App\HomePetWeb.App.Persistencia\obj\Debug\netstandard2.1\HomePetWeb.App.Persistencia.csprojAssemblyReference.cache
+C:\HomePetWeb\HomePetWeb.App\HomePetWeb.App.Persistencia\obj\Debug\netstandard2.1\HomePetWeb.App.Persistencia.AssemblyInfoInputs.cache
+C:\HomePetWeb\HomePetWeb.App\HomePetWeb.App.Persistencia\obj\Debug\netstandard2.1\HomePetWeb.App.Persistencia.AssemblyInfo.cs
+C:\HomePetWeb\HomePetWeb.App\HomePetWeb.App.Persistencia\obj\Debug\netstandard2.1\HomePetWeb.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\HomePetWeb\HomePetWeb.App\HomePetWeb.App.Persistencia\obj\Debug\netstandard2.1\HomePetWeb.App.Persistencia.csproj.CopyComplete
+C:\HomePetWeb\HomePetWeb.App\HomePetWeb.App.Persistencia\obj\Debug\netstandard2.1\HomePetWeb.App.Persistencia.dll
+C:\HomePetWeb\HomePetWeb.App\HomePetWeb.App.Persistencia\obj\Debug\netstandard2.1\HomePetWeb.App.Persistencia.pdb

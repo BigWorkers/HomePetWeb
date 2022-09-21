@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fzKqk0Fze19coGSjNfOUn6bhiCMjSSCWQ3f/r4ub99VAxn84Kh7G/+J/vbi7yGsfP0w/8HkJauODcqixug5l+g==",
+  "dgSpecHash": "pdAX7plk+fTM6CFbdyrKNVNrkUbnH6NmIW8/HtudmH8qJWtKKDMEwrjXl1V1+aF6cWLebo1FvID0EHLjo0f2aw==",
   "success": true,
   "projectFilePath": "C:\\HomePetWeb\\HomePetWeb.App\\HomePetWeb.App.Dominio\\HomePetWeb.App.Dominio.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\SamuelC\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\SamuelC\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

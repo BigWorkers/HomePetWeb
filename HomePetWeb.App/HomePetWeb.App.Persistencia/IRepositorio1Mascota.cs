@@ -13,6 +13,7 @@ namespace HomePetWeb.App.Persistencia.AppRepositorios
         IEnumerable<Mascota> GetMascotaPorFiltro(string filtro);
         Mascota GetMascotaPorId(int mascotaId);
         Mascota Update(Mascota MascotaActualizado);
+        void DeleteMascota(int idMascota);
         Mascota Add(Mascota nuevoMascota);
     }
 }

@@ -4,7 +4,7 @@
     ".NETCoreApp,Version=v3.1": {
       "HomePetWeb.App.Dominio/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "compile": {
           "bin/placeholder/HomePetWeb.App.Dominio.dll": {}
         },
@@ -14,7 +14,7 @@
       },
       "HomePetWeb.App.Persistencia/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "HomePetWeb.App.Dominio": "1.0.0"
         },

@@ -2,14 +2,38 @@
 @model HomePetWeb.App.Frontend.Pages.List1Model
 @{
 }
+
+
+<a class="btn btn-primary">HOME PET CARE</a>
+<a class="btn btn-primary">BIG WORKERS</a>
+<a class="btn btn-primary">MISION TIC 2022</a>
+
+
+
+
+
+
 <h1>Mascota en Casa</h1>
 <form method="get">
     <div class="form-group">
         <p>
-            InfoMascota: <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda"/>
+            ***********************************************************
+        </p>
+        <a class="btn btn-primary">LISTADO DE MASCOTAS</a>
+        <p>                                     </p>
+        <p>
+            InfoMascota: <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda" />
             <input type="submit" value="Filtar" />
         </p>
+        <p>                                     </p>
 </form>
+
+<a class="btn btn-primary">NOMBRE</a><a class="btn btn-primary"> </a><a class="btn btn-primary">FECHA NACIMIENTO</a><a
+    class="btn btn-primary"> </a><a class="btn btn-primary">COLOR</a><a class="btn btn-primary"> </a><a
+    class="btn btn-primary">RAZA</a><a class="btn btn-primary"> </a><a class="btn btn-primary">ESTADO SALUD</a>
+
+    <p>                                     </p>
+
 <table class="table">
     @foreach (var InfoMascota in Model.Mascotas)
     {
@@ -19,26 +43,26 @@
             <td>@InfoMascota.Color</td>
             <td>@InfoMascota.Raza</td>
             <td>@InfoMascota.EstadoSalud</td>
-                 <td>
-                    <a class="btn btn-primary table-btn" asp-page="./Details1" asp-route-mascotaId="@InfoMascota.Id">
-                        <i class="fas fa-info-circle fa-lg"></i>
-                        InfoVet
-                        </a>
-                 </td>     
-                 <td> 
-                 <a class="btn btn-primary table-btn" asp-page="./Edit1" asp-route-mascotaId="@InfoMascota.Id">
-                 <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
-                        Editar Info
-                 </a>
-                 <td> 
-                 <a class="btn btn-primary table-btn" asp-page="./Delete1" asp-route-mascotaId="@InfoMascota.Id">
-                 <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
-                        Borrar
-                 </a>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Details1" asp-route-mascotaId="@InfoMascota.Id">
+                    <i class="fas fa-info-circle fa-lg"></i>
+                    DETALLE
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Edit1" asp-route-mascotaId="@InfoMascota.Id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
+                    EDITAR
+                </a>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Delete1" asp-route-mascotaId="@InfoMascota.Id">
+                    <i class="fas fa-trash" aria-hidden="true"></i>
+                    BORRAR
+                </a>
 
-            </td>  
-        </tr>   
+            </td>
+        </tr>
     }
 
-    </table>
-    <a asp-page=".\Edit1" class="btn btn-primary">Adicionar Mascota</a>
+</table>
+<a asp-page=".\Edit1" class="btn btn-primary">Adicionar Mascota</a>

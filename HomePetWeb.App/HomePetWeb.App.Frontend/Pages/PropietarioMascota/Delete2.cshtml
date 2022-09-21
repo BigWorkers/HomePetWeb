@@ -2,7 +2,12 @@
 @model HomePetWeb.App.Frontend.Pages.Delete2Model
 @{
 }
-<h2>Borrado PropietarioMascota : @Model.PropietarioMascota.Nombre</h2>
+<h2>Borrado PropietarioMascota</h2>
+
+<a class="btn btn-primary">BORRADO DE PROPIETARIO MASCOTAS</a>
+<p >                                                </p> 
+<p >                                                </p>
+
 <form method="post">
      <input type="hidden" asp-for="PropietarioMascota.Id"/>
     <div class="form-group">
@@ -40,6 +45,5 @@
         <input asp-for="PropietarioMascota.Correo" class="form-control">
         <span class="text-danger" asp-validation-for="PropietarioMascota.Correo"></span>
     </div>
-    <button type="submit" class="btn btn-primary">Grabar</button>
+    <button type="submit" class="btn btn-primary">Borrar</button>         <a asp-page="./List2" class="btn btn-primary">PropietarioMascota </a>
 </form>
-    <a asp-page="./List2" class="btn-default">PropietarioMascota </a>

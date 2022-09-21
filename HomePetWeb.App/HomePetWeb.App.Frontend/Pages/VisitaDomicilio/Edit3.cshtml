@@ -3,6 +3,12 @@
 @{
 }
 <h2>Edicion Visita Domicilio : @Model.VisitaDomicilio.Temperatura</h2>
+
+<a asp-page=" " class="btn btn-primary">EDITAR VISITA DOMICILIARIA </a>
+
+<p> </p>
+<p> </p>
+
 <form method="post">
      <input type="hidden" asp-for="VisitaDomicilio.Id"/>
     <div class="form-group">
@@ -40,6 +46,6 @@
         <input asp-for="VisitaDomicilio.IdVeterinario" class="form-control">
         <span class="text-danger" asp-validation-for="VisitaDomicilio.IdVeterinario"></span>
     </div>
-    <button type="submit" class="btn btn-primary">Grabar</button>
+    <button type="submit" class="btn btn-primary">Grabar</button>    <a asp-page="./List3" class="btn btn-primary">Visita Domicilio </a>
 </form>
-    <a asp-page="./List3" class="btn-default">VisitaDomicilio </a>
+

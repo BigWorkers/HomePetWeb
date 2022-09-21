@@ -14,7 +14,7 @@ namespace HomePetWeb.App.Persistencia.AppRepositorios
         {
             veterinarios= new List<Veterinario>()
             {
-                new Veterinario{Id=0,Nombre="NOMBRE",Apellido="APELLIDO",Telefono="TELEFONO",TarjetaProfesional="TARJETA PROFESIONAL"},
+                new Veterinario{Id=0,Nombre="Mayrin",Apellido="Henao Gomez",Telefono="3113111111",TarjetaProfesional="2345"},
                 new Veterinario{Id=1,Nombre="Maria Andrea",Apellido="Sanchez",Telefono="3102145687",TarjetaProfesional="3461"},
                 new Veterinario{Id=2,Nombre="Camilo",Apellido="Isaza",Telefono="30054757452",TarjetaProfesional="8547"},
                 new Veterinario{Id=3,Nombre="Maria Fernanda",Apellido="Lopez",Telefono="3208547961",TarjetaProfesional="2647"},

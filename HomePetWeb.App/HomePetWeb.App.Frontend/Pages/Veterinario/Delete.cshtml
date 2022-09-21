@@ -2,7 +2,10 @@
 @model HomePetWeb.App.Frontend.Pages.DeleteModel
 @{
 }
-<h2>Borrado Veterinarios : @Model.Veterinario.Nombre</h2>
+<h2>Borrado Veterinarios</h2>
+<a class="btn btn-primary">BORRADO DE VETERINARIO</a>
+<p >                                                </p> 
+<p >                                                </p>
 <form method="post">
      <input type="hidden" asp-for="Veterinario.Id"/>
     <div class="form-group">
@@ -25,8 +28,10 @@
         <input asp-for="Veterinario.TarjetaProfesional" class="form-control">
         <span class="text-danger" asp-validation-for="Veterinario.TarjetaProfesional"></span>
     </div>
-    <button type="submit" class="btn btn-primary">Grabar</button>
+    <p >                                                </p>
+    <p >                                                </p>
+    <button type="submit" class="btn btn-primary">Borrar</button>      <a asp-page="./List" class="btn btn-primary">Veterinario </a>
 </form>
-    <a asp-page="./List" class="btn-default">Veterinario </a>
+    
 
   

@@ -6,10 +6,25 @@
 <form method="get">
     <div class="form-group">
         <p>
-            InfoPropietarioMascota: <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda"/>
+            ***********************************************************
+        </p>
+        <a class="btn btn-primary">LISTADO DE PROPIETARIO MASCOTAS</a>
+        <p>
+        <p>
+            InfoPropietarioMascota: <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda" />
             <input type="submit" value="Filtar" />
         </p>
+
+        <p> </p>
 </form>
+
+<a class="btn btn-primary">NOMBRE</a><a class="btn btn-primary">APELLIDO</a><a class="btn btn-primary">DOCUMENTO</a><a
+    class="btn btn-primary">DIRECCION</a><a class="btn btn-primary">TELEFONO</a><a class="btn btn-primary">CIUDAD</a><a class="btn btn-primary">CORREO</a>
+
+<p> </p>
+
+
+
 <table class="table">
     @foreach (var InfoPropietarioMascota in Model.PropietarioMascotas)
     {
@@ -21,26 +36,29 @@
             <td>@InfoPropietarioMascota.Telefono</td>
             <td>@InfoPropietarioMascota.Ciudad</td>
             <td>@InfoPropietarioMascota.Correo</td>
-                 <td>
-                    <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-propietarioMascotaId="@InfoPropietarioMascota.Id">
-                        <i class="fas fa-info-circle fa-lg"></i>
-                        InfoVet
-                        </a>
-                 </td>     
-                 <td> 
-                 <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-propietarioMascotaId="@InfoPropietarioMascota.Id">
-                 <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
-                        Editar Info
-                 </a>
-                 <td> 
-                 <a class="btn btn-primary table-btn" asp-page="./Delete" asp-route-PropietarioMascotaId="@InfoPropietarioMascota.Id">
-                 <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
-                        Borrar
-                 </a>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Details2"
+                asp-route-propietarioMascotaId="@InfoPropietarioMascota.Id">
+                    <i class="fas fa-info-circle fa-lg"></i>
+                    DETALLE
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Edit2"
+                asp-route-propietarioMascotaId="@InfoPropietarioMascota.Id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
+                    EDITAR
+                </a>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Delete2"
+                asp-route-PropietarioMascotaId="@InfoPropietarioMascota.Id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
+                    BORRAR
+                </a>
 
-            </td>  
-        </tr>   
+            </td>
+        </tr>
     }
 
-    </table>
-    <a asp-page=".\Edit2" class="btn btn-primary">Adicionar PropietarioMascota</a>
+</table>
+<a asp-page=".\Edit2" class="btn btn-primary">Adicionar Propietario Mascota</a>

@@ -3,6 +3,13 @@
 @{
 }
 <h2>Edicion PropietarioMascota : @Model.PropietarioMascota.Nombre</h2>
+
+
+<a asp-page=" " class="btn btn-primary">EDITAR PROPIETARIO MASCOTAS </a>
+
+<p> </p>
+<p> </p>
+
 <form method="post">
      <input type="hidden" asp-for="PropietarioMascota.Id"/>
     <div class="form-group">
@@ -40,6 +47,6 @@
         <input asp-for="PropietarioMascota.Correo" class="form-control">
         <span class="text-danger" asp-validation-for="PropietarioMascota.Correo"></span>
     </div>
-    <button type="submit" class="btn btn-primary">Grabar</button>
+    <button type="submit" class="btn btn-primary">Grabar</button>     <a asp-page="./List2" class="btn btn-primary">PropietarioMascota </a>
 </form>
-    <a asp-page="./List2" class="btn-default">PropietarioMascota </a>
+   

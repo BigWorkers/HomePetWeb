@@ -20,14 +20,14 @@ a:hover {
 
 .btn-primary {
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  background-color:#f57e00;
+  border-color: #f57e00;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  background-color: #f57e00;
+  border-color: #f57e00;
 }
 
 /* Sticky footer styles

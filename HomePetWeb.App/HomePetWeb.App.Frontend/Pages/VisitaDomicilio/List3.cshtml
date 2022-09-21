@@ -4,12 +4,25 @@
 }
 <h1>Visita a Domicilio</h1>
 <form method="get">
+        <p>
+            ***********************************************************
+        </p>
+        <a class="btn btn-primary">LISTADO DE VISITA DOMICILIO</a>
+        <p>
+
+
     <div class="form-group">
         <p>
             InfoVisitaDomicilio: <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda"/>
             <input type="submit" value="Filtar" />
         </p>
+        <p>                                     </p>
 </form>
+
+<a class="btn btn-primary">TEMPERATURA</a><a class="btn btn-primary">PESO</a><a class="btn btn-primary">F. RESPIRATORIA</a><a
+    class="btn btn-primary">F. CARDIACA</a><a class="btn btn-primary">ESTAD ANIMO</a><a class="btn btn-primary">FECHA VISITA</a>
+
+    <p>                                     </p>
 <table class="table">
     @foreach (var InfoVisitaDomicilio in Model.VisitaDomicilio)
     {
@@ -22,20 +35,20 @@
             <td>@InfoVisitaDomicilio.FechaVisita</td>
             <td>@InfoVisitaDomicilio.IdVeterinario</td>
                  <td>
-                    <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-visitaDomicilioId="@InfoVisitaDomicilio.Id">
+                    <a class="btn btn-primary table-btn" asp-page="./Details3" asp-route-visitaDomicilioId="@InfoVisitaDomicilio.Id">
                         <i class="fas fa-info-circle fa-lg"></i>
-                        InfoVet
+                        DETALLE
                         </a>
                  </td>     
                  <td> 
-                 <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-visitaDomicilioId="@InfoVisitaDomicilio.Id">
+                 <a class="btn btn-primary table-btn" asp-page="./Edit3" asp-route-visitaDomicilioId="@InfoVisitaDomicilio.Id">
                  <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
-                        Editar Info
+                        EDITAR 
                  </a>
                  <td> 
-                 <a class="btn btn-primary table-btn" asp-page="./Delete" asp-route-visitaDomicilioId="@InfoVisitaDomicilio.Id">
+                 <a class="btn btn-primary table-btn" asp-page="./Delete3" asp-route-visitaDomicilioId="@InfoVisitaDomicilio.Id">
                  <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
-                        Borrar
+                        BORRAR
                  </a>
 
             </td>  
@@ -43,4 +56,4 @@
     }
 
     </table>
-    <a asp-page=".\Edit3" class="btn btn-primary">Adicionar VisitaDomicilio</a>
+    <a asp-page=".\Edit3" class="btn btn-primary">Adicionar Visita Domicilio</a>

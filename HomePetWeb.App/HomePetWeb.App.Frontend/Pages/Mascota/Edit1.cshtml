@@ -3,8 +3,13 @@
 @{
 }
 <h2>Edicion Mascota : @Model.Mascota.Nombre</h2>
+
+<a asp-page=" " class="btn btn-primary">EDITAR MASCOTAS </a>
+
+<p> </p>
+<p> </p>
 <form method="post">
-     <input type="hidden" asp-for="Mascota.Id"/>
+    <input type="hidden" asp-for="Mascota.Id" />
     <div class="form-group">
         <label asp-for="Mascota.Nombre"></label>
         <input asp-for="Mascota.Nombre" class="form-control">
@@ -25,6 +30,14 @@
         <input asp-for="Mascota.Raza" class="form-control">
         <span class="text-danger" asp-validation-for="Mascota.Raza"></span>
     </div>
-    <button type="submit" class="btn btn-primary">Grabar</button>
+    <div class="form-group">
+        <label asp-for="Mascota.EstadoSalud"></label>
+        <input asp-for="Mascota.EstadoSalud" class="form-control">
+        <span class="text-danger" asp-validation-for="Mascota.EstadoSalud"></span>
+    </div>
+    <p> </p>
+    <p> </p>
+
+    <button type="submit" class="btn btn-primary">Grabar</button> <a asp-page="./List1" class="btn btn-primary">Mascota
+    </a>
 </form>
-    <a asp-page="./List1" class="btn-default">Mascota </a>

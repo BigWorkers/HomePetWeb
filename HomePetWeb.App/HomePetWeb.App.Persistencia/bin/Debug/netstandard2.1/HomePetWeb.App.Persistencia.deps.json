@@ -1,0 +1,37 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "HomePetWeb.App.Persistencia/1.0.0": {
+        "dependencies": {
+          "HomePetWeb.App.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "HomePetWeb.App.Persistencia.dll": {}
+        }
+      },
+      "HomePetWeb.App.Dominio/1.0.0": {
+        "runtime": {
+          "HomePetWeb.App.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HomePetWeb.App.Persistencia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HomePetWeb.App.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

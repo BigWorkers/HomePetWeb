@@ -14,7 +14,7 @@ namespace HomePetWeb.App.Persistencia.AppRepositorios
         {
             mascotas= new List<Mascota>()
             {
-                new Mascota{Id=0,Nombre="NOMBRE",FechaNacimiento="FECHA NACIMIENTO",Color="COLOR",Raza="RAZA",EstadoSalud="ESTADO DE SALUD"},
+                new Mascota{Id=0,Nombre="Apolo",FechaNacimiento="13/04/2020",Color="Dorado",Raza="Golden Retriver",EstadoSalud="Decaido"},
                 new Mascota{Id=1,Nombre="Douglas",FechaNacimiento="12/04/2005",Color="Negro",Raza="Labrador",EstadoSalud="Bueno"},
                 new Mascota{Id=2,Nombre="Pinina",FechaNacimiento="29/11/2012",Color="Blanco",Raza="French Poodle",EstadoSalud="Regular"},
                 new Mascota{Id=3,Nombre="Tigre",FechaNacimiento="16/02/2007",Color="Manchado",Raza="Criollo",EstadoSalud="En Observacion"},
@@ -48,6 +48,7 @@ namespace HomePetWeb.App.Persistencia.AppRepositorios
             }
             return mascotas;
         }
+        
 
         public Mascota Update(Mascota MascotaActualizado)
         {
@@ -64,6 +65,15 @@ namespace HomePetWeb.App.Persistencia.AppRepositorios
             return mascota;
         }
 
-        
-    }
+        void IRepositorio1Mascota.DeleteMascota(int idMascota)
+        {
+            var mascotaEncontrada = mascotas.SingleOrDefault(r=> r.Id==idMascota); 
+            if (mascotaEncontrada !=null)
+                return;
+                mascotas.Remove(mascotaEncontrada);       
+                
+        }
+
+        }
+
 }
